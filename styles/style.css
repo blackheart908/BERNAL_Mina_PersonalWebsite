@@ -1,0 +1,9 @@
+@font-face
+{
+    font-family: MAGGIEMAE-Regular;
+    src:url("MAGGIEMAE-Regular.otf");
+}
+
+h1{
+    font-family: MAGGIEMAE-Regular;
+}
