@@ -1,9 +1,21 @@
 @font-face
 {
-    font-family: MAGGIEMAE-Regular;
-    src:url("MAGGIEMAE-Regular.otf");
+    font-family: newFont;
+    src:url("Glamourousse.ttf");
 }
 
 h1{
-    font-family: MAGGIEMAE-Regular;
+    position: relative;
+    left: 50px;
+    font-family: newFont;
+    font-size: 100px;
+  
+}
+
+p{
+    position: relative;
+    left: 50px;
+    font-family: newFont;
+    font-size: 50px;
+
 }
