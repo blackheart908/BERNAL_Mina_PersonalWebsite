@@ -38,18 +38,9 @@ div#container{
 
 .sidebar{
     width: 200px;
-    height: 100%;
     float:left;
     margin-top: 200px;
     margin-left: 100px;
-}
-
-.content{
-    
-    margin-left:200px;
-    width:auto;
-    height:100%;
-    padding: 150px;
 }
 
 ul#nav{
@@ -76,5 +67,50 @@ ul#nav li a:hover{
     background-color: black;
     color: floralwhite;
     padding-left: 30px;
+}
+
+
+.content{
+    
+    margin-left:200px;
+    width:auto;
+    height:100%;
+    padding: 150px;
+    
+}
+
+@media only screen and (max-width: 320px){
+    .content{
+        padding: 0px;
+        position:absolute;
+        
+        margin-top: 200px;
+        margin-left: 0px;
+    
+        left:0px;
+    }
+
+    h1{
+        font-size: 3em;
+        left:20px;
+    }
+   
+   p{
+       font-size: 1em;
+       left:20px;
+   }
+   
+    .sidebar{
+        position: relative;
+        margin-top: 50px;
+        margin-left: 20px;
+        font-size: .5em;
+    
+
+    }
+    
+   
+
+    
 }
 
