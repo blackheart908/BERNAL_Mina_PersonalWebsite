@@ -36,11 +36,15 @@ div#container{
 
 }
 
+
+
 .sidebar{
+   
     width: 200px;
     float:left;
     margin-top: 200px;
     margin-left: 100px;
+  
 }
 
 ul#nav{
@@ -64,7 +68,7 @@ ul#nav li a{
 }
 
 ul#nav li a:hover{
-    background-color: black;
+    background-color: darkgrey;
     color: floralwhite;
     padding-left: 30px;
 }
@@ -84,7 +88,7 @@ ul#nav li a:hover{
         padding: 0px;
         position:absolute;
         
-        margin-top: 200px;
+        margin-top: 300px;
         margin-left: 0px;
     
         left:0px;
@@ -104,7 +108,7 @@ ul#nav li a:hover{
         position: relative;
         margin-top: 50px;
         margin-left: 20px;
-        font-size: .5em;
+        font-size: .8em;
     
 
     }
