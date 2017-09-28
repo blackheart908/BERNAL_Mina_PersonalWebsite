@@ -31,7 +31,7 @@ div#container{
     width: 200px;
     float:left;
     margin-top: 150px;
-    margin-left: 50px;
+    margin-left: 100px;
   
 }
 
@@ -42,6 +42,7 @@ ul#nav li{
 }
 
 ul#nav li a{
+    font-family: newFont;
     color:darkblue;
     display: block;
     padding: 10px;
