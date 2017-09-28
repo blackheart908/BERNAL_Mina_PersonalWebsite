@@ -11,27 +11,12 @@
     box-sizzing:border-box;
 }
 
-h1{
-    position: relative;
-    left: 50px;
-    font-family: newFont;
-    font-size: 100px;
-  
-}
-
 a{
    
     text-decoration: none;
     word-spacing: 10px;
 }
 
-p{
-    position: relative;
-    left: 50px;
-    font-family: newFont;
-    font-size: 50px;
-
-}
 
 div#container{
     width: 100%;
@@ -45,14 +30,12 @@ div#container{
    
     width: 200px;
     float:left;
-    margin-top: 200px;
-    margin-left: 100px;
+    margin-top: 150px;
+    margin-left: 50px;
   
 }
 
-ul#nav{
 
-}
 
 ul#nav li{
     list-style: none;
@@ -82,13 +65,31 @@ ul#nav li a:hover{
     margin-left:200px;
     width:auto;
     height:100%;
-    padding: 150px;
+    padding: 100px;
     
 }
 
+.defaultFace{
+        float:top;
+        left: 50px;
+        font-family: newFont;
+
+}
+.defaultFace h1
+{
+      
+        font-size: 100px;
+        }
+.defaultFace p
+        {
+       
+        font-size: 50px;
+        }
+        
+
 @media only screen and (max-width: 350px){
     .content{
-        padding: 0px;
+        padding: 20px;
         position:absolute;
         
         margin-top: 290px;
@@ -97,18 +98,14 @@ ul#nav li a:hover{
         left:0px;
     }
 
-    h1{
-        font-size: 3em;
+    .defaultFace{
         left:20px;
     }
+    
    
-   p{
-       font-size: 1em;
-       left:20px;
-   }
    
     .sidebar{
-        position: relative;
+    
         margin-top: 50px;
         margin-left: 20px;
         font-size: .8em;
