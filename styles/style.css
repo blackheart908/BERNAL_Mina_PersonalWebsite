@@ -37,13 +37,16 @@ div#container{
 }
 
 .sidebar{
-    width: 150px;
+    width: 200px;
     height: 100%;
     background-color:#cfcfc4;
     float:left;
 }
 
 .content{
+    
+    margin-left:100px;
     width:auto;
-    height: 100%;
+    height:100%;
+    padding: 150px;
 }
