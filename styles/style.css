@@ -28,7 +28,7 @@ div#container{
 
 .sidebar{
    
-    width: 200px;
+    width:200px;
     float:left;
     margin-top: 150px;
     margin-left: 100px;
@@ -90,17 +90,17 @@ ul#nav li a:hover{
 
 @media only screen and (max-width: 350px){
     .content{
-        padding: 20px;
+        padding: 10px;
         position:absolute;
         
-        margin-top: 290px;
+        margin-top: 550px;
         margin-left: 0px;
     
         left:0px;
     }
 
     .defaultFace{
-        left:20px;
+        left:10px;
     }
     
    
@@ -108,7 +108,7 @@ ul#nav li a:hover{
     .sidebar{
     
         margin-top: 50px;
-        margin-left: 20px;
+        margin-left: 50px;
         font-size: .8em;
     
 
