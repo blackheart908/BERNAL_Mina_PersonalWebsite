@@ -1,0 +1,24 @@
+        @font-face
+            {
+            font-family: newFont;
+            src:url("Glamourousse.ttf");
+            }
+
+           
+        .defaultFace{
+                
+                margin-left: 50px;
+                font-family: newFont;
+
+        }
+        .defaultFace h1
+            {
+                color:lightgoldenrodyellow;
+                font-size: 100px;
+             }
+        .defaultFace p{
+                color:cyan;
+                font-size: 50px;
+         }
+            
+            
