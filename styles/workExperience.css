@@ -10,8 +10,15 @@
         width:auto;
 }
      
-h1,h2{
-    color:darkblue;
+ div {
+                    border-radius: 5px;
+                    background-color:white;
+                    padding-left: 40px;
+                    padding-top: 1px;
+                }
+                
+#span{
+    color:red;
 }
             
 p{
