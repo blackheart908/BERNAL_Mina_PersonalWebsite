@@ -1,5 +1,13 @@
+@font-face
+            {
+            font-family: newFont;
+            src:url("Glamourousse.ttf");
+}
+
+
+
 * {box-sizing:border-box}
-body {font-family: Verdana,sans-serif;margin:0}
+body {font-family: newFont;margin:0}
 .mySlides {display:none}
 
 /* Slideshow container */
@@ -38,10 +46,10 @@ body {font-family: Verdana,sans-serif;margin:0}
 
 /* Caption text */
 .text {
-  color:black;
-  font-size: 25px;
+  color:whitesmoke;
+  font-size: 30px;
   padding: 8px 12px;
-  background: darkgray;
+  background:black;
   position: absolute;
   bottom: 8px;
   width: 100%;
