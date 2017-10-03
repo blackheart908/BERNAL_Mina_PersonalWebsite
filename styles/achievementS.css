@@ -1,0 +1,22 @@
+@font-face
+{
+     font-family: newFont;
+    src:url("Glamourousse.ttf");
+}
+
+
+#achievements{
+    font-family: newFont;
+    margin-top: 150px;
+    margin-left: 20px;
+    width:auto;
+}
+           
+h1,h2{
+    color:darkblue;
+}
+            
+p{
+    font-size: 2em;
+
+}
