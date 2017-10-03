@@ -1,0 +1,23 @@
+@font-face
+{
+        font-family: newFont;
+        src:url("Glamourousse.ttf");
+}
+
+
+#profile{
+        font-family: newFont;
+        margin-top: 20px;
+        margin-left: 20px;
+        width:auto;
+}
+
+h1{
+    color:darkblue;
+}
+
+p{
+    font-size: 1.5em;
+
+}
+            
